@@ -24,7 +24,7 @@ object Dependencies {
   )
 
   val sprayVersion      = "1.3.3"
-  val akkaVersion       = "2.3.14"
+  val akkaVersion       = "2.4.12"
   val aspectjVersion    = "1.8.9"
   val slf4jVersion      = "1.7.7"
   val play23Version     = "2.3.10"
@@ -32,9 +32,9 @@ object Dependencies {
   val play25Version     = "2.5.4"
   val elasticsearchVersion = "2.1.0"
 
-  val sprayJson         = "io.spray"                  %%  "spray-json"            % "1.3.1"
+  val sprayJson         = "io.spray"                  %%  "spray-json"            % "1.3.2"
   val sprayJsonLenses   = "net.virtual-void"          %%  "json-lenses"           % "0.6.0"
-  val scalatest         = "org.scalatest"             %%  "scalatest"             % "2.2.4"
+  val scalatest         = "org.scalatest"             %%  "scalatest"             % "3.0.0"
   val logback           = "ch.qos.logback"            %   "logback-classic"       % "1.0.13"
   val aspectJ           = "org.aspectj"               %   "aspectjweaver"         % aspectjVersion
   val newrelic          = "com.newrelic.agent.java"   %   "newrelic-agent"        % "3.26.1"
@@ -52,7 +52,7 @@ object Dependencies {
   val slf4jnop          = "org.slf4j"                 %   "slf4j-nop"             % slf4jVersion
   val slf4jJul          = "org.slf4j"                 %   "jul-to-slf4j"          % slf4jVersion
   val slf4jLog4j        = "org.slf4j"                 %   "log4j-over-slf4j"      % slf4jVersion
-  val scalazConcurrent  = "org.scalaz"                %%  "scalaz-concurrent"     % "7.1.0"
+  val scalazConcurrent  = "org.scalaz"                %%  "scalaz-concurrent"     % "7.2.7"
   val twitterUtilCore   = "com.twitter"               %%  "util-core"             % "6.34.0"
   val sigarLoader       = "io.kamon"                  %   "sigar-loader"          % "1.6.5-rev002"
   val h2                = "com.h2database"            %   "h2"                    % "1.4.182"
